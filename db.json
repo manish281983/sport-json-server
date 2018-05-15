@@ -1,0 +1,52 @@
+{
+    "pools":[
+        {
+            "id": 1,
+            "name": "Pool A",
+            "teamlist": [
+                {
+                    "id": 1,
+                    "name": "India"
+                },
+                {
+                    "id": 2,
+                    "name": "Pakistan"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Pool B",
+            "teamlist": [
+                {
+                    "id": 3,
+                    "name": "Australia"
+                },
+                {
+                    "id": 4,
+                    "name": "South Africa"
+                }
+            ]
+        }
+
+    ],
+    "team": {
+        "id" : 1,
+        "captain": "Virat Kohli",
+        "viceCaptain": "MS DHoni",
+        "coach": "Fleming",
+        "country": "India",
+        "players": [
+            {
+                "id": 1,
+                "name": "Rohit Sharma"
+            },
+            {
+                "id": 2,
+                "name": "Shikhar Dhawan"
+            }
+
+        ]
+
+    }
+}
