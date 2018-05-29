@@ -6,31 +6,48 @@
             "teamlist": [
                 {
                     "id": 1,
-                    "name": "India"
+                    "name": "England"
                 },
                 {
                     "id": 2,
-                    "name": "Pakistan"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Pool B",
-            "teamlist": [
+                    "name": "South Africa"
+                },
                 {
                     "id": 3,
-                    "name": "Australia"
+                    "name": "India"
                 },
                 {
                     "id": 4,
-                    "name": "South Africa"
+                    "name": "Australia"
+                },
+                {
+                    "id": 5,
+                    "name": "New Zealand"
+                },
+                {
+                    "id": 6,
+                    "name": "Pakistan"
+                },
+                {
+                    "id": 7,
+                    "name": "Bangladesh"
+                },
+                {
+                    "id": 8,
+                    "name": "Sri Lanka"
+                },
+                {
+                    "id": 9,
+                    "name": "Afghanistan"
+                },
+                {
+                    "id": 10,
+                    "name": "West Indies"
                 }
             ]
         }
-
     ],
-    "team": {
+    "team-info": {
         "id" : 1,
         "captain": "Virat Kohli",
         "viceCaptain": "MS DHoni",
@@ -48,5 +65,379 @@
 
         ]
 
-    }
+    },
+    "venues":[
+        {
+            "id": 1,
+            "city": "Birmingham",
+            "ground": "Edgbaston"
+        },
+        {
+            "id": 2,
+            "city": "Bristol",
+            "ground": "Bristol County Ground"
+        },
+        {
+            "id": 3,
+            "city": "Cardiff",
+            "ground": "Sophia Gardens"
+        },
+        {
+            "id": 4,
+            "city": "Chester-le-Street",
+            "ground": "Riverside Ground"
+        },
+        {
+            "id": 5,
+            "city": "Leeds",
+            "ground": "Headingley"
+        },
+        {
+            "id": 6,
+            "city": "London",
+            "ground": "Lord's"
+        },
+        {
+            "id": 7,
+            "city": "London",
+            "ground": "The Oval"
+        },
+        {
+            "id": 8,
+            "city": "Manchester",
+            "ground": "Old Trafford"
+        },
+        {
+            "id": 9,
+            "city": "Nottingham",
+            "ground": "Trent Bridge"
+        },
+        {
+            "id": 10,
+            "city": "Southampton",
+            "ground": "Rose Bowl"
+        },
+        {
+            "id": 11,
+            "city": "Taunton",
+            "ground": "County Ground"
+        }
+    ],
+    "match-schedule":[
+        {
+            "id": 1,
+            "date": "2019-05-30",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 1,
+                "name": "England",
+                "status": "winner"
+            },
+            "team2":{
+                "id": 2,
+                "name": "South Africa",
+                "status": "looser"
+            },
+            "venue":{
+                "id": 7,
+                "city": "London",
+                "ground": "The Oval"
+            },
+            "result":"England Win by 23 Runs"
+        },
+        {
+            "id": 2,
+            "date": "2019-05-31",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 10,
+                "name": "West Indies",
+                "stauts": "tie"
+            },
+            "team2":{
+                "id": 6,
+                "name": "Pakistan",
+                "status": "tie"
+            },
+            "venue":{
+                "id": 9,
+                "city": "Nottingham",
+                "ground": "Trent Bridge"
+            },
+            "result": "Match tie"
+        },
+        {
+            "id": 3,
+            "date": "2019-06-01",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 5,
+                "name": "New Zealand",
+                "status": "looser"
+            },
+            "team2":{
+                "id": 8,
+                "name": "Sri Lanka",
+                "status": "winner"
+            },
+            "venue":{
+                "id": 3,
+                "city": "Cardiff",
+                "ground": "Sophia Gardens"
+            },
+            "result": "Sri Lanka win by 4 wickets"
+        },
+        {
+            "id": 4,
+            "date": "2019-06-01",
+            "time": "12:30 PM (GMT)",
+            "team1":{
+                "id": 9,
+                "name": "Afghanistan",
+                "status": null
+            },
+            "team2":{
+                "id": 4,
+                "name": "Australia",
+                "status": null
+            },
+            "venue": {
+                "id": 2,
+                "city": "Bristol",
+                "ground": "Bristol County Ground"
+            },
+            "result": null
+        },
+        {
+            "id": 5,
+            "date": "2019-06-02",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 2,
+                "name": "South Africa",
+                "status": null
+            },
+            "team2":{
+                "id": 7,
+                "name": "Bangladesh",
+                "status": null
+            },
+            "venue": {
+                "id": 7,
+                "city": "London",
+                "ground": "The Oval"
+            },
+            "result": null
+        },
+        {
+            "id": 6,
+            "date": "2019-06-03",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 1,
+                "name": "England",
+                "status": null
+            },
+            "team2":{
+                "id": 6,
+                "name": "Pakistan",
+                "status": null
+            },
+            "venue": {
+                "id": 9,
+                "city": "Nottingham",
+                "ground": "Trent Bridge"
+            },
+            "result": null
+        },
+        {
+            "id": 7,
+            "date": "2019-06-04",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 9,
+                "name": "Afghanistan",
+                "status": null
+            },
+            "team2":{
+                "id": 8,
+                "name": "Sri Lanka",
+                "status": null
+            },
+            "venue":  {
+                "id": 3,
+                "city": "Cardiff",
+                "ground": "Sophia Gardens"
+            },
+            "result": null
+        },
+        {
+            "id": 8,
+            "date": "2019-06-05",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 2,
+                "name": "South Africa",
+                "status": null
+            },
+            "team2":{
+                "id": 3,
+                "name": "India",
+                "status": null
+            },
+            "venue":   {
+                "id": 10,
+                "city": "Southampton",
+                "ground": "Rose Bowl"
+            },
+            "result": null
+        },
+        {
+            "id": 9,
+            "date": "2019-06-05",
+            "time": "12:30 PM (GMT)",
+            "team1":{
+                "id": 7,
+                "name": "Bangladesh",
+                "status": null
+            },
+            "team2":{
+                "id": 5,
+                "name": "New Zealand",
+                "status": null
+            },
+            "venue": {
+                "id": 7,
+                "city": "London",
+                "ground": "The Oval"
+            },
+            "result": null
+        },
+        {
+            "id": 10,
+            "date": "2019-06-06",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 4,
+                "name": "Australia",
+                "status": null
+            },
+            "team2":{
+                "id": 10,
+                "name": "West Indies",
+                "status": null
+            },
+            "venue":  {
+                "id": 9,
+                "city": "Nottingham",
+                "ground": "Trent Bridge"
+            },
+            "result": null
+        },
+        {
+            "id": 11,
+            "date": "2019-06-07",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 6,
+                "name": "Pakistan",
+                "status": null
+            },
+            "team2":{
+                "id": 8,
+                "name": "Sri Lanka",
+                "status": null
+            },
+            "venue": {
+                "id": 2,
+                "city": "Bristol",
+                "ground": "Bristol County Ground"
+            },
+            "result": null
+        },
+        {
+            "id": 12,
+            "date": "2019-06-08",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 1,
+                "name": "England",
+                "status": null
+            },
+            "team2":{
+                "id": 7,
+                "name": "Bangladesh",
+                "status": null
+            },
+            "venue":  {
+                "id": 3,
+                "city": "Cardiff",
+                "ground": "Sophia Gardens"
+            },
+            "result": null
+        },
+        {
+            "id": 13,
+            "date": "2019-06-08",
+            "time": "12:30 PM (GMT)",
+            "team1":{
+                "id": 9,
+                "name": "Afghanistan",
+                "status": null
+            },
+            "team2":{
+                "id": 5,
+                "name": "New Zealand",
+                "status": null
+            },
+            "venue":{
+                "id": 11,
+                "city": "Taunton",
+                "ground": "County Ground"
+            },
+            "result": null
+        },
+        {
+            "id": 14,
+            "date": "2019-06-09",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 3,
+                "name": "India",
+                "status": null
+            },
+            "team2":{
+                "id": 4,
+                "name": "Australia",
+                "status": null
+            },
+            "venue":{
+                "id": 7,
+                "city": "London",
+                "ground": "The Oval"
+            },
+            "result": null
+        },
+        {
+            "id": 15,
+            "date": "2019-06-10",
+            "time": "09:30 AM (GMT)",
+            "team1":{
+                "id": 2,
+                "name": "South Africa",
+                "status": null
+            },
+            "team2":{
+                "id": 10,
+                "name": "West Indies",
+                "status": null
+            },
+            "venue":{
+                "id": 10,
+                "city": "Southampton",
+                "ground": "Rose Bowl"
+            },
+            "result": null
+        }
+    ]
 }

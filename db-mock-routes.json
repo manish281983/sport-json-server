@@ -1,4 +1,6 @@
 {
     "/pools": "/pools",
-    "/team/:id": "/team"
+    "/team-info/:id": "/team-info",
+    "/match-schedule": "/match-schedule",
+    "/venues": "/venues"
 }
