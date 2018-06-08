@@ -6,43 +6,53 @@
             "teamlist": [
                 {
                     "id": 1,
-                    "name": "England"
+                    "name": "England",
+                    "color": "00175E"
                 },
                 {
                     "id": 2,
-                    "name": "South Africa"
+                    "name": "South Africa",
+                    "color": "458F3E"
                 },
                 {
                     "id": 3,
-                    "name": "India"
+                    "name": "India",
+                    "color": "4383E0"
                 },
                 {
                     "id": 4,
-                    "name": "Australia"
+                    "name": "Australia",
+                    "color": "FBCD2E"
                 },
                 {
                     "id": 5,
-                    "name": "New Zealand"
+                    "name": "New Zealand",
+                    "color": "1A1718"
                 },
                 {
                     "id": 6,
-                    "name": "Pakistan"
+                    "name": "Pakistan",
+                    "color": "004A0F"
                 },
                 {
                     "id": 7,
-                    "name": "Bangladesh"
+                    "name": "Bangladesh",
+                    "color": "009E93"
                 },
                 {
                     "id": 8,
-                    "name": "Sri Lanka"
+                    "name": "Sri Lanka",
+                    "color": "00ACD7"
                 },
                 {
                     "id": 9,
-                    "name": "Afghanistan"
+                    "name": "Afghanistan",
+                    "color": "2E8EFD"
                 },
                 {
                     "id": 10,
-                    "name": "West Indies"
+                    "name": "West Indies",
+                    "color": "7D1041"
                 }
             ]
         }
@@ -126,6 +136,7 @@
     "match-schedule":[
         {
             "id": 1,
+            "match": 1,
             "date": "2019-05-30",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -143,16 +154,24 @@
                 "city": "London",
                 "ground": "The Oval"
             },
-            "result":"England Win by 23 Runs"
+            "result":{
+                "win": "England",
+                "loose": "South Africa",
+                "color": "00175E",
+                "team1": "143/8 (20.0 Ovs)",
+                "team2": "120 (16.3 Ovs)",
+                "description":"England Win by 23 Runs"
+            }
         },
         {
             "id": 2,
+            "match": 2,
             "date": "2019-05-31",
             "time": "09:30 AM (GMT)",
             "team1":{
                 "id": 10,
                 "name": "West Indies",
-                "stauts": "tie"
+                "status": "tie"
             },
             "team2":{
                 "id": 6,
@@ -164,10 +183,18 @@
                 "city": "Nottingham",
                 "ground": "Trent Bridge"
             },
-            "result": "Match tie"
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": "",
+                "team1": "160/6 (20.0 Ovs)",
+                "team2": "160/8 (20.0 Ovs)",
+                "description":"Match Tie"
+            }
         },
         {
             "id": 3,
+            "match": 3,
             "date": "2019-06-01",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -185,10 +212,18 @@
                 "city": "Cardiff",
                 "ground": "Sophia Gardens"
             },
-            "result": "Sri Lanka win by 4 wickets"
+            "result":{
+                "win": "Sri Lanka",
+                "loose": "New Zealand",
+                "color": "00ACD7",
+                "team1": "160/6 (20.0 Ovs)",
+                "team2": "161/6 (18.3 Ovs)",
+                "description": "Sri Lanka win by 4 wickets"
+            }
         },
         {
             "id": 4,
+            "match": 4,
             "date": "2019-06-01",
             "time": "12:30 PM (GMT)",
             "team1":{
@@ -206,10 +241,16 @@
                 "city": "Bristol",
                 "ground": "Bristol County Ground"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 5,
+            "match": 5,
             "date": "2019-06-02",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -227,10 +268,16 @@
                 "city": "London",
                 "ground": "The Oval"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 6,
+            "match": 6,
             "date": "2019-06-03",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -248,10 +295,16 @@
                 "city": "Nottingham",
                 "ground": "Trent Bridge"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 7,
+            "match": 7,
             "date": "2019-06-04",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -269,10 +322,16 @@
                 "city": "Cardiff",
                 "ground": "Sophia Gardens"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 8,
+            "match": 8,
             "date": "2019-06-05",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -290,10 +349,16 @@
                 "city": "Southampton",
                 "ground": "Rose Bowl"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 9,
+            "match": 9,
             "date": "2019-06-05",
             "time": "12:30 PM (GMT)",
             "team1":{
@@ -311,10 +376,16 @@
                 "city": "London",
                 "ground": "The Oval"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 10,
+            "match": 10,
             "date": "2019-06-06",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -332,10 +403,16 @@
                 "city": "Nottingham",
                 "ground": "Trent Bridge"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 11,
+            "match": 11,
             "date": "2019-06-07",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -353,10 +430,16 @@
                 "city": "Bristol",
                 "ground": "Bristol County Ground"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 12,
+            "match": 12,
             "date": "2019-06-08",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -374,10 +457,16 @@
                 "city": "Cardiff",
                 "ground": "Sophia Gardens"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 13,
+            "match": 13,
             "date": "2019-06-08",
             "time": "12:30 PM (GMT)",
             "team1":{
@@ -395,10 +484,16 @@
                 "city": "Taunton",
                 "ground": "County Ground"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 14,
+            "match": 14,
             "date": "2019-06-09",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -416,10 +511,16 @@
                 "city": "London",
                 "ground": "The Oval"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         },
         {
             "id": 15,
+            "match": 15,
             "date": "2019-06-10",
             "time": "09:30 AM (GMT)",
             "team1":{
@@ -437,7 +538,12 @@
                 "city": "Southampton",
                 "ground": "Rose Bowl"
             },
-            "result": null
+            "result":{
+                "win": null,
+                "loose": null,
+                "color": null,
+                "description": null
+            }
         }
     ]
 }
